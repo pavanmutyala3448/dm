@@ -1,0 +1,136 @@
+.services-img {
+  height: 60em;
+}
+.left-service {
+  display: flex;
+  align-items: flex-start;
+  flex-basis: 30%;
+}
+.right-service {
+  display: flex;
+  align-items: flex-start;
+  flex: 70%;
+}
+.service-items {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(4, 4fr);
+  grid-gap: 1em;
+  padding: 10px;
+}
+.service-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-Content-section {
+  padding: 10px;
+}
+.top-service {
+  text-align: left;
+  margin-bottom: 2em;
+  text-decoration: underline 4px solid #00d747;
+}
+.main-service {
+  width: 80%;
+  line-height: 1.5em;
+  text-align: left;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.diamond-stone {
+  font-size: 4em;
+  padding: 10px;
+  color: #d6a2e8;
+}
+.service-item-heading {
+  text-align: left;
+  font-weight: 200;
+}
+.service-item-content {
+  width: 80%;
+  font-weight: 100;
+  text-align: left;
+  color: #0005;
+}
+.service-bottom-heading {
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 3em;
+}
+@media (max-width: 800px) {
+  .service-items {
+    width: 100%;
+  }
+  .diamond-stone {
+    font-size: 2em;
+  }
+  .services-img {
+    height: 30em;
+  }
+  .service-item-heading {
+    font-size: 12px;
+  }
+  .service-item-content {
+    font-size: 10px;
+  }
+  .top-service {
+    padding: 1em;
+    text-align: center;
+  }
+  .main-service {
+    font-size: 1em;
+    text-align: center;
+    margin: 1px auto;
+  }
+  .service-bottom-heading {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 385px) {
+  .Services {
+    width: 100%;
+    padding: 0;
+  }
+  .left-service {
+    width: 100%;
+  }
+  .services-row {
+    width: 100%;
+  }
+  .service-items {
+    width: 100%;
+  }
+  .diamond-stone {
+    font-size: 2em;
+  }
+  .services-img {
+    height: 30em;
+  }
+  .service-item-heading {
+    font-size: 12px;
+  }
+  .service-item-content {
+    font-size: 10px;
+  }
+  .top-service {
+    width: 60%;
+    padding: 0;
+    margin: 1px auto;
+    padding-top: 1em;
+    text-align: center;
+  }
+  .main-service {
+    font-size: 1em;
+    text-align: center;
+    margin: 1px auto;
+  }
+  .service-bottom-heading {
+    font-size: 10px;
+    padding: 0;
+    margin: 1px auto;
+    width: 80%;
+    text-align: center;
+  }
+}
