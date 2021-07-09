@@ -48,7 +48,7 @@ const Section1 = () => {
           <div className="row">
             {Services.map((item) => {
               return (
-                <div className="col-md-3 secrviceSection-column">
+                <div key={item.id} className="col-md-3 secrviceSection-column">
                   <i className={item.icon}></i>
                   <h3 className="serviceSection-heading">{item.heading}</h3>
                   <p className="serviceSection-content">{item.content}</p>

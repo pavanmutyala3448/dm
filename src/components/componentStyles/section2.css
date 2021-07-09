@@ -58,18 +58,36 @@
   font-weight: 100;
   margin-left: 2em;
 }
-@media (max-width: 800px) {
+.Customer {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0009;
+}
+.customerDetails {
+  padding: 0.5em;
+}
+.customerDetails h2 {
+  font-weight: 300;
+}
+
+@media (max-width: 1400px) {
   .AboutUs {
     width: 100%;
     text-align: left;
     margin: 7em auto;
   }
   .About-left-section {
-    flex-basis: 100%;
+    flex-basis: 50%;
   }
 
   .AboutUs-img {
-    width: 15em;
+    width: 25em;
   }
 
   .AboutUs-top-Heading {
@@ -87,7 +105,7 @@
     color: #00d747;
   }
   .About-right-section {
-    flex-basis: 100%;
+    flex-basis: 50%;
   }
   .AboutUs-main-Heading {
     width: 100%;
@@ -102,6 +120,116 @@
   .AboutUs-main-content {
     width: 90%;
     line-height: 2em;
+    font-size: 0.8em;
+    color: #0007;
+    font-weight: 100;
+  }
+}
+
+@media (max-width: 800px) {
+  .AboutUs {
+    width: 100%;
+    text-align: left;
+    margin: 7em auto;
+  }
+  .About-left-section {
+    flex-basis: 50%;
+  }
+
+  .AboutUs-img {
+    width: 15em;
+  }
+  .customerDetails h2 {
+    font-weight: 300;
+    font-size: 1em;
+  }
+
+  .AboutUs-top-Heading {
+    font-weight: 200;
+    text-decoration: underline 3px solid #00d747;
+  }
+  .content-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+  }
+  .fa-crop-alt {
+    padding: 0.5em;
+    color: #00d747;
+  }
+  .About-right-section {
+    flex-basis: 50%;
+  }
+  .AboutUs-main-Heading {
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  .AboutUs-head-content {
+    font-size: 1.2em;
+    color: #0008;
+    margin: auto 0.1em;
+  }
+  .AboutUs-main-content {
+    max-width: 90%;
+    line-height: 2em;
+
+    font-size: 0.8em;
+    color: #0007;
+    font-weight: 100;
+  }
+}
+
+@media (max-width: 385px) {
+  .AboutUs {
+    width: 100%;
+    text-align: left;
+    margin: 7em auto;
+  }
+  .About-left-section {
+    flex-basis: 50%;
+  }
+
+  .AboutUs-img {
+    width: 15em;
+  }
+  .customerDetails h2 {
+    font-weight: 300;
+    font-size: 1em;
+  }
+
+  .AboutUs-top-Heading {
+    font-weight: 200;
+    text-decoration: underline 3px solid #00d747;
+  }
+  .content-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+  }
+  .fa-crop-alt {
+    padding: 0.5em;
+    color: #00d747;
+  }
+  .About-right-section {
+    flex-basis: 50%;
+  }
+  .AboutUs-main-Heading {
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  .AboutUs-head-content {
+    font-size: 1.2em;
+    color: #0008;
+    margin: auto 0.1em;
+  }
+  .AboutUs-main-content {
+    max-width: 90%;
+    line-height: 2em;
+
     font-size: 0.8em;
     color: #0007;
     font-weight: 100;

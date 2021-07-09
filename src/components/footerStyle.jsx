@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Box = styled.div`
   padding: 80px 60px;
-  background-color: rgba(241, 248, 254, 255);
+  background-color: rgb(154, 236, 219, 0.4);
   bottom: 0;
   width: 100%;
+
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -17,13 +18,16 @@ export const Container = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   /* background: red; */
+  @media (max-width: 1000px) {
+    display: block;
+  }
 `;
 
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+  margin-left: px;
 `;
 
 export const Row = styled.div`
@@ -38,17 +42,23 @@ export const Row = styled.div`
 export const FooterLink = styled.a`
   color: #000;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
   &:hover {
     color: green;
     transition: 200ms ease-in;
   }
+  @media (max-width: 1000px) {
+    font-size: 15px;
+  }
 `;
 
 export const Heading = styled.p`
-  font-size: 24px;
+  font-size: 20px;
   color: #000;
   margin-bottom: 40px;
   font-weight: 500;
+  @media (max-width: 1000px) {
+    font-size: 15px;
+  }
 `;

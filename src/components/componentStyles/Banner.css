@@ -41,7 +41,35 @@
   position: relative;
 }
 .banner-img {
-  width: 40em;
+  max-width: 40em;
+}
+@media (max-width: 1400px) {
+  .banner-img {
+    width: 25em;
+  }
+  .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-main-heading {
+    width: 100%;
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 1000px) {
+  .banner-img {
+    width: 20em;
+  }
+  .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-main-heading {
+    width: 100%;
+    font-size: 2.3em;
+  }
 }
 @media (max-width: 800px) {
   .banner-img {

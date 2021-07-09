@@ -21,7 +21,7 @@ const Testimonials = [
     icon: "fas fa-quote-left",
     content:
       "  Their testimonial videos aren't production quality, but they get the message across, cover useful & relevant information which goes to show you don't need to invest thousands in production get some testimonial videos up with quality. ",
-    btnTitle: "Testimonials"
+    btnTitle: ""
   }
 ];
 export { Testimonials, about };

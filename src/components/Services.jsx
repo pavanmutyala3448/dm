@@ -9,7 +9,7 @@ const Services = () => {
         <div className="col-md-6 left-service">
           <img src={ServiceImg} alt="service-img" className="services-img" />
         </div>
-        <div className="col-md-6 right-service">
+        <div className="col-md-6 col-sm-6 col-lg-6 col-xxl-6 right-service">
           <div className="service-content">
             <p className="top-service">Our Service</p>
             <h3 className="main-service">

@@ -6,9 +6,27 @@
   font-size: 1.1em;
   background-color: rgba(241, 248, 254, 255);
 }
+
+@media (max-width: 1400px) {
+  .form-control {
+    width: 10em;
+  }
+  ::placeholder {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 1000px) {
+  .form-control {
+    width: 13em;
+  }
+  ::placeholder {
+    font-size: 0.5em;
+  }
+}
+
 @media (max-width: 800px) {
   .form-control {
-    width: 8em;
+    width: 13em;
   }
   ::placeholder {
     font-size: 0.7em;
@@ -16,7 +34,7 @@
 }
 @media (max-width: 385px) {
   .form-control {
-    width: 13em;
+    width: 11em;
   }
   ::placeholder {
     font-size: 0.5em;
